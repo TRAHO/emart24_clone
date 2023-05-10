@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!-- 제이쿼리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style\common.css">
+
+    <title>emart clone</title>
+    
+</head>
+
+<body>
+    <header class="header">
+        <section class="header__wrap">
+            <div class="header__subHeader">
+                <ul class="snb">
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">이마트24 소개</a></li>
+                    <li><a href="#">채용안내</a></li>
+                    <li><a href="#">전자 계약 시스템</a></li>
+                </ul>
+            </div>
+            <div class="header__mainHeader">
+                <div class="header__logoWrap">
+                    <a href="#">
+                        <img src="image\logo.png" alt="홈 - 이마트24">
+                    </a>
+                </div>
+                <ul class="gnb">
+                    <div class="gnb__megaBg"></div>
+                    <li>
+                        <a href="#">
+                            <span>상품</span>
+                        </a>
+                        <ul class="gnb-sub">
+                            <li>
+                                <a href="#">행사 상품</a>
+                            </li>
+                            <li>
+                                <a href="#">차별화 상품</a>
+                            </li>
+                            <li>
+                                <a href="#">Fresh Food</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>매장찾기</span>
+                        </a>
+                        <ul class="gnb-sub">
+                            <li>
+                                <a href="#">매장찾기</a>
+                            </li>
+                            <li>
+                                <a href="#">3D 매장 체험</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>서비스</span>
+                        </a>
+                        <ul class="gnb-sub">
+                            <li>
+                                <a href="#">APP 서비스</a>
+                            </li>
+                            <li>
+                                <a href="#">생활 서비스</a>
+                            </li>
+                            <li>
+                                <a href="#">제휴 서비스</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>이벤트</span>
+                        </a>
+                        <ul class="gnb-sub">
+                            <li>
+                                <a href="#">진행중인 이벤트</a>
+                            </li>
+                            <li>
+                                <a href="#">종료된 이벤트</a>
+                            </li>
+                            <li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>창업안내</span>
+                        </a>
+                        <ul class="gnb-sub">
+                            <li>
+                                <a href="#">이마트24 특징</a>
+                            </li>
+                            <li>
+                                <a href="#">창업 가이드</a>
+                            </li>
+                            <li>
+                                <a href="#">창업 설명회</a>
+                            </li>
+                            <li>
+                                <a href="#">창업 성공기</a>
+                            </li>
+                            <li>
+                                <a href="#">창업 상담</a>
+                            </li>
+                            <li>
+                                <a href="#">추천 매장 소개</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </header>
+
+    <main class="main">
+        <section class="main__slider swiper">
+            <ul class="swiper-wrapper">
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/203" target="_blank">
+                        <img class="banner-pc" src="image\MjE4NjI=.png"
+                            alt="3월 EVENT|원둥이 굿즈 100원에 사고 한정판 KIT도 받자!|행사기간 3월 13일 - 4월 14일" />
+                        <img class="banner-mo" src="image\MjE4NjE=.png"
+                            alt="3월 EVENT|원둥이 굿즈 100원에 사고 한정판 KIT도 받자!|행사기간 3월 13일 - 4월 14일" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/186" target="_blank">
+                        <img class="banner-pc" src="image\MTMxNzk=.png"
+                            alt="화이트데이 보물찾기 경품 추첨 증정!|티파니앤코 엘사 퍼레티 루비 세트 이미지, 순금 3.75g 이미지, 실버바 100g 이미지" />
+                        <img class="banner-mo" src="image\MTMxNzg=.png"
+                            alt="화이트데이 보물찾기 경품 추첨 증정!|티파니앤코 엘사 퍼레티 루비 세트 이미지, 순금 3.75g 이미지, 실버바 100g 이미지" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/41" target="_blank">
+                        <img class="banner-pc" src="image\MzM5OA==.png"
+                            alt="미야NFT 콜라보 와인 이마트24 단독 판매 | 편의점 최초 | 행사기간 2월 1일-3월 19일" />
+                        <img class="banner-mo" src="image\MzM5Nw==.png"
+                            alt="미야NFT 콜라보 와인 이마트24 단독 판매 | 편의점 최초 | 행사기간 2월 1일-3월 19일" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/26" target="_blank">
+                        <img class="banner-pc" src="image\Mjk0Mg==.png"
+                            alt="SKYPASS 적립하고 파리가자!" />
+                        <img class="banner-mo" src="image\Mjk0MQ==.png"
+                            alt="SKYPASS 적립하고 파리가자!" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/191" target="_blank">
+                        <img class="banner-pc" src="image\MjE3OTE=.png"
+                            alt="슈퍼키친 반찬사면 민생라면 쿠폰이 덤 | 행사기간 3월7일 ~ 4월 30일 | 민생라면 이미지" />
+                        <img class="banner-mo" src="image\MjE3OTE=.png"
+                            alt="슈퍼키친 반찬사면 민생라면 쿠폰이 덤 | 행사기간 3월7일 ~ 4월 30일 | 민생라면 이미지" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/187" target="_blank">
+                        <img class="banner-pc" src="image\MjE3NDM=.png"
+                            alt="화이트데이 하리보 챌린지 선착순 1만명 페이백 | 행사기간 3월6일 - 3월 16일" />
+                        <img class="banner-mo" src="image\MjE3NDI=.png"
+                            alt="화이트데이 하리보 챌린지 선착순 1만명 페이백 | 행사기간 3월6일 - 3월 16일" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/193" target="_blank">
+                        <img class="banner-pc" src="image\MjE4Mjk=.png"
+                            alt="와인구독 출시기념 선착순 1만원 페이백! | 행사기간 3월 13일 ~ 3월 31일 | 와인 이미지" />
+                        <img class="banner-mo" src="image\MjE4Mjg=.png"
+                            alt="와인구독 출시기념 선착순 1만원 페이백! | 행사기간 3월 13일 ~ 3월 31일 | 와인 이미지" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/192" target="_blank">
+                        <img class="banner-pc" src="image\MjE3OTg=.png"
+                            alt="몬테스클래식 52% 할인 1만원 페이백까지! | 행사기간 3월 7일 ~ 3월 17일 | 몬테스 클래식 카버네 소비뇽 와인 6종 이미지 | 몬테스 클래식 카버네 샤도네이 와인 6종 이미지" />
+                        <img class="banner-mo" src="image\MjE3OTc=.png"
+                            alt="몬테스클래식 52% 할인 1만원 페이백까지! | 행사기간 3월 7일 ~ 3월 17일 | 몬테스 클래식 카버네 소비뇽 와인 6종 이미지 | 몬테스 클래식 카버네 샤도네이 와인 6종 이미지" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/190" target="_self">
+                        <img class="banner-pc" src="image\MjE3Njg=.png"
+                            alt="화이트데이 선물로 딱! 나만의 코인노래방| 뮤존 코인노래방 BOX 이미지" />
+                        <img class="banner-mo" src="image\MjE3Njc=.png"
+                            alt="화이트데이 선물로 딱! 나만의 코인노래방| 뮤존 코인노래방 BOX 이미지" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/188" target="_blank">
+                        <img class="banner-pc" src="image\MjE3NDU=.png"
+                            alt="라비모찌무드등&amp;초콜릿 세트사고 하트톡 받자! | 너하나 나하나 커플라비 하트톡 , 라비 무드등 , 라비 스티커, 페레로로쉐 이미지 | 행사기간 3월 6일- 3월 31일" />
+                        <img class="banner-mo" src="image\MjE3NDQ=.png"
+                            alt="라비모찌무드등&amp;초콜릿 세트사고 하트톡 받자! | 너하나 나하나 커플라비 하트톡 , 라비 무드등 , 라비 스티커, 페레로로쉐 이미지 | 행사기간 3월 6일- 3월 31일" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/184" target="_self">
+                        <img class="banner-pc" src="image\NTUxMg==.png"
+                            alt="예약픽업 EVENT|밀키트 예약픽업하면 아이패드 9세대 쏜다!|행사기간 3월 2일 - 3월 31일|아이패드 일러스트 이미지" />
+                        <img class="banner-mo" src="image\NTUxMQ==.png"
+                            alt="예약픽업 EVENT|밀키트 예약픽업하면 아이패드 9세대 쏜다!|행사기간 3월 2일 - 3월 31일|아이패드 일러스트 이미지" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/183" target="_self">
+                        <img class="banner-pc" src="image\NTUwNw==.png"
+                            alt="이마트24 3월 카드혜택| 행사기간 3월1일 ~3월 31일 | 카드 일러스트" />
+                        <img class="banner-mo" src="image\NTUwNg==.png"
+                            alt="이마트24 3월 카드혜택| 행사기간 3월1일 ~3월 31일 | 카드 일러스트" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/163" target="_blank">
+                        <img class="banner-pc" src="image\NTQ4Nw==.png"
+                            alt="3월 횟수 무제한 배달비 무료 | 배달서비스 EVENT" />
+                        <img class="banner-mo" src="image\NTQ4Ng==.png"
+                            alt="3월 횟수 무제한 배달비 무료 | 배달서비스 EVENT" />
+                    </a>
+                </li>
+                <li class="mainBanner swiper-slide">
+                    <a href="https://www.emart24.co.kr/event/103" target="_blank">
+                        <img class="banner-pc" src="image\NTEzMQ==.png"
+                            alt="공유킥보드 &#39;씽씽&#39;에서 이마트24 혜택받자! | 행사기간 2월 17- 3월 31일 | 이마트 24 금액권 이미지, 씽씽이 이미지" />
+                        <img class="banner-mo" src="image\NTEzMA==.png"
+                            alt="공유킥보드 &#39;씽씽&#39;에서 이마트24 혜택받자! | 행사기간 2월 17- 3월 31일 | 이마트 24 금액권 이미지, 씽씽이 이미지" />
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <div class="main__controllerSec active-on-visible" data-active-on-visible-diff-y="-70">
+            <section class="main__controller">
+                <ul class="main__btnWrap">
+                    <li class="main__btn-pause">
+                        <img src="image/sliderPause.png" alt="slider_pause"
+                            class="pause">
+                        <img src="image/sliderPauseHover.png" alt="sliderPauseHover"
+                            class="hoverimg__pause">
+                        <img src="image/sliderPlay.png" alt="slider_play"
+                            class="play">
+                        <img src="image/sliderPlayHover.png" alt="sliderPlayHover"
+                            class="hoverimg__play">
+                    </li>
+                    <li class="main__btn-prev">
+                        <img src="image/sliderPrev.png" alt="slider_prev"
+                            class="prev">
+                        <img src="image/sliderPrevHover.png" alt="sliderPrevHover"
+                            class="hoverimg">
+                    </li>
+                    <li class="main__btn-next">
+                        <img src="image/sliderNext.png" alt="slider_next"
+                            class="next">
+                        <img src="image/sliderNextHover.png" alt="sliderNextHover"
+                            class="hoverimg">
+                    </li>
+                    <li class="main__pagination">
+                        <span class="main__curentPage">1</span>
+                        <div class="main__progress"></div>
+                        <span class="main__maxPage">14</span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="main__container">
+            <section class="main__eventWrap active-on-visible" data-active-on-visible-diff-y="-70">
+                <div class="main__eventTabbox">
+                    <div class="main__eventTitle">
+                        <h1>3월 행사 상품</h1>
+                        <a href="#" class="btnFullpage">
+                            <span>전체보기</span>
+                            <img src="image/more.png" alt="more">
+                        </a>
+                    </div>
+                    <ul class="main__eventList">
+                        <li class="selected">
+                            <img src="image/blankImg.png" alt="one_one"
+                                class="one_one">
+                            <h2>1+1</h2>
+                            <img src="image/blankImg.png" alt="linkArrow"
+                                class="linkArrow">
+                            <div class="main__tab-bg"></div>
+                        </li>
+                        <li>
+                            <img src="image/blankImg.png" alt="two_one"
+                                class="two_one">
+                            <h2>2+1</h2>
+                            <img src="image/blankImg.png" alt="linkArrow"
+                                class="linkArrow">
+                            <div class="main__tab-bg"></div>
+                        </li>
+                        <li>
+                            <img src="image/blankImg.png" alt="newProduct"
+                                class="newProduct">
+                            <h2>신상품</h2>
+                            <img src="image/blankImg.png" alt="linkArrow"
+                                class="linkArrow">
+                            <div class="main__tab-bg"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main__eventContent">
+                    <section class="main__eventSlider main__eventSlider--one swiper selected">
+                        <ul class="swiper-wrapper">
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>1+1</span>
+                                    <img src="image/MjE3NTA=.png" alt="상품1">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">하루견과)챔피언모듬안주세트163g</span>
+                                    <span class="price">11,000원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>1+1</span>
+                                    <img src="image/MjE3NTE=.png" alt="상품2">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">아로마빌)핑크솔트크림라떼원컵</span>
+                                    <span class="price">1,600원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>1+1</span>
+                                    <img src="image/MjE3NDc=.png" alt="상품3">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">로아커)초콜릿크리스피커피50g</span>
+                                    <span class="price">2,800원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>1+1</span>
+                                    <img src="image/MjAyOTI=.png" alt="상품4">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">롯데)레쓰비그란데라떼500ml</span>
+                                    <span class="price">2,200원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>1+1</span>
+                                    <img src="image/MjAyOTE=.png" alt="상품5">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">롯데)깨수깡160ml</span>
+                                    <span class="price">5,000원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>1+1</span>
+                                    <img src="image/MjAyOTM=.png" alt="상품6">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">롯데)레쓰비그란데헤이즐넛500m</span>
+                                    <span class="price">2,200원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>1+1</span>
+                                    <img src="image/MjAzMDE=.png" alt="상품7">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">조지아)크래프트블랙470ml</span>
+                                    <span class="price">2,500원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>1+1</span>
+                                    <img src="image/MjE3NDk=.png" alt="상품8">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">덴마크)테이크얼라이브샤인머스캣500ml</span>
+                                    <span class="price">2,500원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>1+1</span>
+                                    <img src="image/MjE3NTI=.png" alt="상품9">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">아임얼라이브)콤부차젤리사과맛50.4g</span>
+                                    <span class="price">1,800원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>1+1</span>
+                                    <img src="image/MjE3NDg=.png" alt="상품10">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">진주햄)천하장사치즈60g</span>
+                                    <span class="price">2,400원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>1+1</span>
+                                    <img src="image/MjAyNTg=.png" alt="상품11">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">서울)마이픽딸기초코링120g</span>
+                                    <span class="price">2,200원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>1+1</span>
+                                    <img src="image/MjE3NzI=.png" alt="상품12">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">동원)산양프로틴플레인150ml</span>
+                                    <span class="price">2,500원</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="main__eventSlider main__eventSlider--two swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjE3NTk=.png" alt="상품1">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">하늘바이오)바삭한황태껍질튀각</span>
+                                    <span class="price">3,500원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjE3NjA=.png" alt="상품2">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">바프)흑임자아몬드40g</span>
+                                    <span class="price">2,200원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjEzMzk=.png" alt="상품3">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">CJ)큰햇반300g(30)</span>
+                                    <span class="price">2,900원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjEwMTY=.png" alt="상품4">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">HK)컨디션100ml</span>
+                                    <span class="price">5,000원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjAyOTE=.png" alt="상품5">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">롯데)깨수깡160ml</span>
+                                    <span class="price">5,000원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjAyOTM=.png" alt="상품6">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">롯데)레쓰비그란데헤이즐넛500m</span>
+                                    <span class="price">2,200원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjAzMDE=.png" alt="상품7">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">조지아)크래프트블랙470ml</span>
+                                    <span class="price">2,500원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjE3NDk=.png" alt="상품8">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">덴마크)테이크얼라이브샤인머스캣500ml</span>
+                                    <span class="price">2,500원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjE3NTI=.png" alt="상품9">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">아임얼라이브)콤부차젤리사과맛50.4g</span>
+                                    <span class="price">1,800원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjE3NDg=.png" alt="상품10">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">진주햄)천하장사치즈60g</span>
+                                    <span class="price">2,400원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjAyNTg=.png" alt="상품11">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">서울)마이픽딸기초코링120g</span>
+                                    <span class="price">2,200원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjE3NzI=.png" alt="상품12">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">동원)산양프로틴플레인150ml</span>
+                                    <span class="price">2,500원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjE3NzI=.png" alt="상품12">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">동원)산양프로틴플레인150ml</span>
+                                    <span class="price">2,500원</span>
+                                </a>
+                            </li>
+                            <li class="main__eventItem swiper-slide">
+                                <a href="#" class="event__imgBox">
+                                    <span class=event_tag>2+1</span>
+                                    <img src="image/MjE3NzI=.png" alt="상품12">
+                                </a>
+                                <a href="#" class="event__infoBox">
+                                    <span class="title">동원)산양프로틴플레인150ml</span>
+                                    <span class="price">2,500원</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="main__eventSlider main__eventSlider--new swiper">
+                        <ul class="swiper-wrapper">
+
+                        </ul>
+                    </section>
+
+                    <div class="main__eventPagination"></div>
+                </div>
+            </section>
+            <section class="main__onlyEmart active-on-visible" data-active-on-visible-diff-y="-70">
+                <div class="onlyEmart__titleWrap">
+                    <h1 class="onlyEmart__title mainTitle">ONLY 이마트24</h1>
+                    <h2 class="onlyEmart__description mainDescription">
+                        이마트24에서만 있는 차별화 상품을 만나보세요.
+                    </h2>
+                </div>
+                <div class="onlyEmart__productWrap swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="onlyEmart__sliderItem swiper-slide">
+                            <a href="#">
+                                <div class="onlyEmart__imgBox">
+                                    <img src="image/Njg=.png" alt="아임이">
+                                </div>
+                                <div class="onlyEmart__infoBox">
+                                    <div class="onlyEmart__productLogo">
+                                        <img src="image/Mjg2NQ==.png" alt="아임이_로고">
+                                    </div>
+                                    <h2 class="onlyEmart__productName">아임이</h2>
+                                    <span class="onlyEmart__productDescription">사는 맛, 딱 한 방울</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="onlyEmart__sliderItem swiper-slide">
+                            <a href="#">
+                                <div class="onlyEmart__imgBox">
+                                    <img src="image/NzI=.png" alt="Fresh Food">
+                                </div>
+                                <div class="onlyEmart__infoBox">
+                                    <div class="onlyEmart__productLogo">
+                                        <img src="image/Mjg2NA==.png" alt="FreshFood_로고">
+                                    </div>
+                                    <h2 class="onlyEmart__productName">Fresh Food</h2>
+                                    <span class="onlyEmart__productDescription">차별화 된 이마트24 Fresh Food</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="onlyEmart__sliderItem swiper-slide">
+                            <a href="#">
+                                <div class="onlyEmart__imgBox">
+                                    <img src="image/NzQ=.png" alt="김토끼">
+                                </div>
+                                <div class="onlyEmart__infoBox">
+                                    <div class="onlyEmart__productLogo">
+                                        <img src="image/Mjg2Mw==.png" alt="김토끼_로고">
+                                    </div>
+                                    <h2 class="onlyEmart__productName">김토끼 스튜됴</h2>
+                                    <span class="onlyEmart__productDescription">2023년 토끼해를 맞이 하여, 김토끼 콜라보</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="onlyEmart__sliderItem swiper-slide">
+                            <a href="#">
+                                <div class="onlyEmart__imgBox">
+                                    <img src="image/MjMyMg==.png" alt="점신">
+                                </div>
+                                <div class="onlyEmart__infoBox">
+                                    <div class="onlyEmart__productLogo">
+                                        <img src="image/Mjg2Mg==.png" alt="점신_로고">
+                                    </div>
+                                    <h2 class="onlyEmart__productName">점신</h2>
+                                    <span class="onlyEmart__productDescription">2023년 운세 제작소 점신 콜라보!</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="main__startup">
+                <div class="startup__bg active-on-visible" data-active-on-visible-diff-y="1000"></div>
+                <div class="startup__titleWrap active-on-visible" data-active-on-visible-diff-y="-70">
+                    <h1 class="startup__title mainTitle">창업 안내</h1>
+                    <h2 class="startup__description mainDescription">
+                        이마트24의 스마트한 창업설계를 받아보세요.
+                    </h2>
+                </div>
+                <ul class="startup__menuWrap">
+                    <li class="startup__menuItem startup__menuItem--guide">
+                        <a href="#">
+                            <div class="startup__itemTitle">
+                                <h3>창업 가이드</h3>
+                                <img src="image/circleArrows.png" alt="바로가기">
+                            </div>
+                            <h4 class="startup__itemDescription">
+                                이마트24는 경영주님과
+                                <br>
+                                협력적 가치를 공유합니다.
+                            </h4>
+                            <div class="startup__itemImg">
+                                <img src="image/idea.png" alt="창업가이드">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="startup__menuItem startup__menuItem--presentation">
+                        <a href="#">
+                            <div class="startup__itemTitle">
+                                <h3>창업 설명회</h3>
+                                <img src="image/circleArrows.png" alt="바로가기">
+                            </div>
+                            <h4 class="startup__itemDescription">
+                                경영주와 함께 하는
+                                <br>
+                                창업 설명회를 신청하세요.
+                            </h4>
+                            <div class="startup__itemImg">
+                                <img class="calender" src="image/calender3d.png"
+                                    alt="">
+                                <img class="coins" src="image/calenderCoins3d.png"
+                                    alt="">
+                                <img class="coin" src="image/calenderCoin3d.png"
+                                    alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="startup__menuItem startup__menuItem--consult">
+                        <a href="#">
+                            <div class="startup__itemTitle">
+                                <h3>창업 상담</h3>
+                                <img src="image/circleArrows.png" alt="바로가기">
+                            </div>
+                            <h4 class="startup__itemDescription">
+                                창업 전문 컨설턴트의
+                                <br>
+                                상담을 받아보세요.
+                            </h4>
+                            <div class="startup__itemImg">
+                                <img src="image/chatBubble.png" alt="창업상담">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="main__storeLocation active-on-visible" data-active-on-visible-diff-y="-70">
+                <div class="storeLocation__contentsWrap">
+                    <h1 class="storeLocation__title mainTitle">매장찾기</h1>
+                    <div class="storeLocation__searchWrap">
+                        <section class="storeLocation__searchBar">
+                            <input type="text" placeholder="매장명을 검색해주세요">
+                            <div class="iconWrap">
+                                <img src="image/searchYellow.png" alt="">
+                            </div>
+                        </section>
+                        <ul class="storeLocation__keywordWrap">
+                            <li class="storeLocation__keyword">
+                                <a href="#">
+                                    <span>24시간</span>
+                                </a>
+                            </li>
+                            <li class="storeLocation__keyword">
+                                <a href="#">
+                                    <span>택배</span>
+                                </a>
+                            </li>
+                            <li class="storeLocation__keyword">
+                                <a href="#">
+                                    <span>ATM</span>
+                                </a>
+                            </li>
+                            <li class="storeLocation__keyword">
+                                <a href="#">
+                                    <span>와인</span>
+                                </a>
+                            </li>
+                            <li class="storeLocation__keyword">
+                                <a href="#">
+                                    <span>커피</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="storeLocation__imgWrap">
+                    <img class="mapPaper" src="image/mapPaper.png" alt="지도">
+                    <img class="pin" src="image/mapPin.png" alt="지도_핀">
+                </div>
+            </section>
+            <section class="main__appDownload active-on-visible" data-active-on-visible-diff-y="-70">
+                <div class="appDownload__bg active-on-visible" data-active-on-visible-diff-y="1000"></div>
+                <div class="appDownload__imgWrap">
+                    <img src="image/mockUpImg.png" alt="목업">
+                </div>
+                <div class="appDownload__contentsWrap">
+                    <section class="appDownload__top">
+                        <div class="appDownload__titleWrap">
+                            <h2>우주편의점</h2>
+                            <h1>“놀아 버는” 편의점</h1>
+                            <h1>지구에 없던 FUN의점</h1>
+                        </div>
+                        <div class="appDownload__btnMore">
+                            <a href="#">
+                                <span>자세히 보기</span>
+                                <div class="more-icon">
+                                    <img src="image/more.png" alt="자세히보기">
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="appDownload__bottom">
+                        <button class="appDownload__btn">
+                            <div class="appDownload__btnImg">
+                                <img src="image/downLoadIcon.png" alt="다운로드">
+                            </div>
+                            <span>앱 다운로드</span>
+                        </button>
+                        <span>이마트24 신규 앱 다운로드 하세요!</span>
+                    </section>
+                </div>
+            </section>
+            <section class="main__emart24Story active-on-visible" data-active-on-visible-diff-y="-70">
+                <div class="emart24Story__leftWrap">
+                    <section class="emart24Story__titleWrap">
+                        <h1 class="emart24Story__title">
+                            이마트24
+                            <strong>STORY</strong>
+                        </h1>
+                        <h2 class="emart24Story__description">
+                            이마트24의 다양한 스토리를 확인해 보세요.
+                        </h2>
+                    </section>
+                    <ul class="emart24Story__socialWrap">
+                        <li class="emart24Story__socialItem">
+                            <a href="#">
+                                <img src="image/youtubeGray.png" alt="youtube">
+                            </a>
+                        </li>
+                        <li class="emart24Story__socialItem">
+                            <a href="#">
+                                <img src="image/instaGray.png" alt="instargram">
+                            </a>
+                        </li>
+                        <li class="emart24Story__socialItem">
+                            <a href="#">
+                                <img src="image/faceBookGray.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="emart24Story__socialItem">
+                            <a href="#">
+                                <img src="image/tiktokGray.png" alt="tiktok">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="emart24Story__contents swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="emart24Story__Item swiper-slide active-on-visible"
+                            data-active-on-visible-diff-y="-100">
+                            <a href="#">
+                                <div class="emart24Story__thumbImg">
+                                    <img src="image/NTUyNw==.png"
+                                        alt="👧💼 : 이마트24 알바생 민지(MZ)가 소개하는#인마이편의점백">
+                                </div>
+                                <div class="emart24Story__itemDescription">
+                                    <div class="emart24Story__itemSocialWrap">
+                                        <div class="emart24Story__itemSocialIcon">
+                                            <img src="image/insta48.png"
+                                                alt="instargram-color">
+                                        </div>
+                                        <h2 class="emart24Story__itemSocialName">INSTAGRAM</h2>
+                                    </div>
+                                    <h3>👧💼 : 이마트24 알바생 민지(MZ)가 소개하는#인마이편의점백</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="emart24Story__Item swiper-slide active-on-visible"
+                            data-active-on-visible-diff-y="-100" data-active-on-visible-delay="100">
+                            <a href="#">
+                                <div class="emart24Story__thumbImg">
+                                    <img src="image/NTUyNg==.png"
+                                        alt="인마이편의점백 💼 민지(MZ)의 하루식단 #쇼츠 #short">
+                                </div>
+                                <div class="emart24Story__itemDescription">
+                                    <div class="emart24Story__itemSocialWrap">
+                                        <div class="emart24Story__itemSocialIcon">
+                                            <img src="image/youtube48.png"
+                                                alt="youtube-color">
+                                        </div>
+                                        <h2 class="emart24Story__itemSocialName">YOUTUBE</h2>
+                                    </div>
+                                    <h3>인마이편의점백 💼 민지(MZ)의 하루식단 #쇼츠 #short</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="emart24Story__Item swiper-slide active-on-visible"
+                            data-active-on-visible-diff-y="-100" data-active-on-visible-delay="200">
+                            <a href="#">
+                                <div class="emart24Story__thumbImg">
+                                    <img src="image/NTQ2Mw==.png" alt="지구인들! 이번 주 신상배달 기다렸둥?🙈">
+                                </div>
+                                <div class="emart24Story__itemDescription">
+                                    <div class="emart24Story__itemSocialWrap">
+                                        <div class="emart24Story__itemSocialIcon">
+                                            <img src="image/insta48.png"
+                                                alt="instargram-color">
+                                        </div>
+                                        <h2 class="emart24Story__itemSocialName">INSTAGRAM</h2>
+                                    </div>
+                                    <h3>지구인들! 이번 주 신상배달 기다렸둥?🙈</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="emart24Story__Item swiper-slide">
+                            <a href="#">
+                                <div class="emart24Story__thumbImg">
+                                    <img src="image/NTUyNw==.png"
+                                        alt="👧💼 : 이마트24 알바생 민지(MZ)가 소개하는#인마이편의점백">
+                                </div>
+                                <div class="emart24Story__itemDescription">
+                                    <div class="emart24Story__itemSocialWrap">
+                                        <div class="emart24Story__itemSocialIcon">
+                                            <img src="image/insta48.png"
+                                                alt="instargram-color">
+                                        </div>
+                                        <h2 class="emart24Story__itemSocialName">INSTAGRAM</h2>
+                                    </div>
+                                    <h3>👧💼 : 이마트24 알바생 민지(MZ)가 소개하는#인마이편의점백</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="emart24Story__Item swiper-slide">
+                            <a href="#">
+                                <div class="emart24Story__thumbImg">
+                                    <img src="image/NTUyNw==.png"
+                                        alt="👧💼 : 이마트24 알바생 민지(MZ)가 소개하는#인마이편의점백">
+                                </div>
+                                <div class="emart24Story__itemDescription">
+                                    <div class="emart24Story__itemSocialWrap">
+                                        <div class="emart24Story__itemSocialIcon">
+                                            <img src="image/insta48.png"
+                                                alt="instargram-color">
+                                        </div>
+                                        <h2 class="emart24Story__itemSocialName">INSTAGRAM</h2>
+                                    </div>
+                                    <h3>👧💼 : 이마트24 알바생 민지(MZ)가 소개하는#인마이편의점백</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="emart24Story__Item swiper-slide">
+                            <a href="#">
+                                <div class="emart24Story__thumbImg">
+                                    <img src="image/NTUyNw==.png"
+                                        alt="👧💼 : 이마트24 알바생 민지(MZ)가 소개하는#인마이편의점백">
+                                </div>
+                                <div class="emart24Story__itemDescription">
+                                    <div class="emart24Story__itemSocialWrap">
+                                        <div class="emart24Story__itemSocialIcon">
+                                            <img src="image/insta48.png"
+                                                alt="instargram-color">
+                                        </div>
+                                        <h2 class="emart24Story__itemSocialName">INSTAGRAM</h2>
+                                    </div>
+                                    <h3>👧💼 : 이마트24 알바생 민지(MZ)가 소개하는#인마이편의점백</h3>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="emart24Story__navigation">
+                        <div class="emart24Story__btnPrev">
+                            <img src="image/tailArrow.png" alt="tailArrow">
+                        </div>
+                        <div class="emart24Story__btnNext">
+                            <img src="image/tailArrow.png" alt="tailArrow">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__notify  active-on-visible" data-active-on-visible-diff-y="-70">
+                <div class="notify__notice">
+                    <div class="notify__titleWrap">
+                        <h1>공지사항</h1>
+                        <a href="#" class="btnFullpage">
+                            <span>전체보기</span>
+                            <img src="image/more.png" alt="more">
+                        </a>
+                    </div>
+                    <ul class="notify__post">
+                        <li>
+                            <a href="#">
+                                <span>개인정보처리방침 개정 안내(2023.02.21)</span>
+                                <span>2023.02.14</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>기준일 설정 공고</span>
+                                <span>2022.12.16</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>개인정보처리방침 개정 안내(2022.09.13)</span>
+                                <span>2022.09.05</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="notify__news">
+                    <div class="notify__titleWrap">
+                        <h1>보도자료</h1>
+                        <a href="#" class="btnFullpage">
+                            <span>전체보기</span>
+                            <img src="image/more.png" alt="more">
+                        </a>
+                    </div>
+                    <ul class="notify__post">
+                        <li>
+                            <a href="#">
+                                <span>이마트24, 대한민국 편의점 최초 싱가포르 진출!</span>
+                                <span>2022.12.23</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>이마트24, 혁신적인 모바일앱 우수성 입증! `스마트앱어워드 2022` 종합쇼핑 부문 대상 수상!</span>
+                                <span>2022.12.21</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>이마트24 X bhc, `안 사면 손해` 파티팩 한정 판매</span>
+                                <span>2022.12.20</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container">
+            <div class="footer__menuWrap">
+                <ul class="footer__menu">
+                    <li>
+                        <a href="#">
+                            <span>개인정보 처리방침</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>이용약관</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>고객센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>CSR경영</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>사이트맵</span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="footer__familySite">
+                    <a href="#">
+                        <span>패밀리사이트</span>
+                        <span>+</span>
+                    </a>
+                </p>
+            </div>
+            <div class="footer__contentsWrap">
+                <section class="footer__emart24Info">
+                    <div class="footer__infoTop">
+                        <span>(주) 이마트24</span>
+                    </div>
+                    <div class="footer__info__bottom">
+                        <span>
+                            대표이사: 김장욱 / 사업자등록번호: 105-86-92454
+                            <br>
+                            서울특별시 성동구 성수동 2가 281-4 푸조비즈타워 / 고객센터: 02-6916-1500 / Fax: 02-6916-1430
+                            <br>
+                            COPYRIGHT (C) EMART24.ALL RIGHT RESERVED
+                        </span>
+                    </div>
+                </section>
+                <ul class="footer__snsWrap">
+                    <li>
+                        <a href="#">
+                            <img src="image/snsYutube.png" alt="snsyoutube">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/snsInsta.png" alt="snsInsta">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/snsFacebook.png" alt="snsFacebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/snsTiktok.png" alt="snsTiktok">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+    <!-- lodash -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+
+    <!-- 스와이퍼 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- 스크립트 -->
+    <script src="script\script.js"></script>
+</body>
+
+</html>
